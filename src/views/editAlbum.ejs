@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('./partial/head') %>
+    <body>
+        <%- include('./partial/header') %>
+
+
+<section>
+<p>
+    Editar Album
+</p>
+
+<form  action="/<%= album.id %>?_method=PUT"  method="POST" enctype="multipart/form-data">
+    <input readonly type="hidden" name="id" value="<%= album.id %>"> 
+    <div>
+        <label for="">Nombre:</label>
+        <input type="text" name="nombre" value="<%= album.nombre %>">
+    </div>
+    <div>
+        <label for="">Duracion:</label>
+        <input type="text" name="duracion" value="<%= album.duracion %>">
+    </div>
+        <div><p>
+        <label for="">Portada:</label>
+    </p>
+        <img src="/<%= album.image %>" alt="Portada del album">
+        <p>
+        <input type="file" name="imagen" value="<%= album.image %>">
+    </p>
+    </div>
+    <div>
+        <input type="submit" value="Enviar">
+    </div>
+</form>
+
+</section>
+
+    
+</body>
+</html>

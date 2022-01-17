@@ -1,0 +1,15 @@
+<article class="album">
+    <h3>Album: <%= album.nombre %></h3> 
+    <p>Duracion: <%= album.duracion %></p>
+    <p>Portada: 
+    <img src="<%= album.image %>" alt="Portada del album">
+</p>
+
+<form method="POST"  action="/<%= album.id %>?_method=DELETE">
+    <input type="submit" value="Eliminar" name="delete" class="">
+</form>
+<form method="GET" action="/editAlbum/<%= album.id %>">
+    <input type="submit" value="Editar" name="Editar" class="">
+</form>
+</article>
+

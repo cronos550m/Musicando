@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "nombre": "sergio",
+        "password": 1234,
+        "imagen": "/images/imagen-no-disponible.jpg",
+        "categoria": "admin"
+    },
+    {
+        "id": 2,
+        "nombre": "user",
+        "password": "1234",
+        "imagen": "/images/imagen-no-disponible.jpg",
+        "categoria": "user"
+    },
+    {
+        "id": 3,
+        "nombre": "123",
+        "password": "1234",
+        "imagen": "",
+        "categoria": "user"
+    },
+    {
+        "id": "8f2b846c-5b22-4335-abcf-e9bdc38d8c5a",
+        "name": "pedro",
+        "apellido": "pedrin",
+        "email": "asd@asd.com",
+        "telefono": "123",
+        "pass": "1234"
+    }
+]

@@ -1,0 +1,13 @@
+<section>
+    <h1>
+        Generos
+    </h1>
+    <p>
+        <a href="./regGenero">Registrar genero</a>
+    </p>
+    <% musicando.forEach(function(genero){ %> 
+        <%- include('./genero',{genero: genero}) %>
+    <p>
+        <a href="./main.ejs">Volver</a>
+    </p>
+</section>

@@ -1,0 +1,14 @@
+<section>
+    <h1>
+        Artistas
+    </h1>
+    <p>
+        <a href="./regArtista">Registrar Artista</a>
+    </p>
+    <% musicando.forEach(function(artista){ %>
+        <%- include('./partial/artista',{artista: artista}) %>
+            <% }); %>
+                <p>
+                    <a href="/">Volver</a>
+                </p>
+</section>

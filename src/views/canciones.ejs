@@ -1,0 +1,14 @@
+<section>
+    <h1>
+        Canciones
+    </h1>
+    <p>
+        <a href="./regCancion"></a>
+    </p>
+    <% musicando.forEach(function(cancion){ %>
+        <%- include('./cancion',{cancion: cancion}) %> 
+    <% }); %>
+    <p>
+        <a href="./main.ejs">Volver</a>
+    </p>
+</section>

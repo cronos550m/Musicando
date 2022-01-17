@@ -1,0 +1,20 @@
+[
+    {
+        "id": "15180761-6b7a-4bfa-bea4-28351d967a0e",
+        "nombre": "Jazz",
+        "duracion": "50",
+        "image": "img/imagen-1642455615918-19773284imagen-1642455583125-96057532jazz.jfif"
+    },
+    {
+        "id": "0b7efb05-9f6a-44a9-92b0-c665eac1fc6e",
+        "nombre": "Live",
+        "duracion": "56",
+        "image": "img/imagen-1642455630334-816831806live.jfif"
+    },
+    {
+        "id": "abf357d4-a0b9-4535-a2cc-91a3d956f404",
+        "nombre": "Queen II",
+        "duracion": "45",
+        "image": "img/imagen-1642455656915-444553970queenII.jfif"
+    }
+]

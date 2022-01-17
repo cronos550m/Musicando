@@ -1,0 +1,16 @@
+<section>
+    <h1>
+        Albumes
+    </h1>
+    <p>
+        <a href="regAlbum">Registrar Album</a>
+    </p>
+
+    <% musicando.forEach(function(album){ %>
+        <%- include('./partial/album',{album: album}) %>
+            <% }); %>
+
+                <p>
+                    <a href="/">Volver</a>
+                </p>
+</section>
